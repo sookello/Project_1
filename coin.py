@@ -6,6 +6,11 @@ import time
 import speech_recognition as sr
 import os
 
+from distutils.version import LooseVersion
+
+version = LooseVersion("1.2.3")
+print(version)
+
 from dotenv import load_dotenv
 
 load_dotenv()
